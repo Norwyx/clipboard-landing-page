@@ -129,6 +129,11 @@ header {
 }
 /* Mobile L: 425px */
 @media (max-width: 26.5625rem) {
+    header {
+        background-image: url(./images/bg-header-mobile.png);
+        background-size: cover;
+    }
+    
     .top-section--title {
         margin: 0 1.5rem;
         margin-bottom: 1rem;
