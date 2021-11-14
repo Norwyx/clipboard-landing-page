@@ -1,9 +1,12 @@
 :root {
     --strong-cyan: hsl(171, 66%, 44%);
+    --strong-cyan-active: hsl(171, 66%, 54%);
     --light-blue: hsl(233, 100%, 69%);
+    --light-blue-active: hsl(233, 100%, 79%);
     --dark-grayish-blue: hsl(210, 10%, 33%);
     --grayish-blue: hsl(201, 11%, 66%);
     --white: #fff;
+    --btn-shadow: 0px 5px 25px -1px rgba(0,0,0,0.2);
 
     --ff-primary: 'Bai Jamjuree', sans-serif;
 }
@@ -18,9 +21,136 @@ html {
     padding: 0;
 }
 
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
 body {
     font-family: var(--ff-primary);
     font-weight: 600;
     color: var(--grayish-blue);
     height: 100vh;
+}
+
+/* Header */
+header {
+    background-image: url(./images/bg-header-desktop.png);
+    background-size: cover;
+}
+
+.header__top-section {
+    flex-direction: column;
+}
+
+.top-section--logo {
+    height: auto;
+    width: 150px;
+    margin: 9rem 0 4rem 0;
+}
+
+.top-section--title {
+    color: var(--dark-grayish-blue);
+    font-size: 3.5rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.top-section--text {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1.4;
+    opacity: 0.7;
+    width: 850px;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.header__bottom-section {
+    display: flex;
+}
+
+.btn {
+    font-family: inherit;
+    font-size: 1.3rem;
+    color: var(--white);
+    box-shadow: var(--btn-shadow);
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+.bottom-section--left-btn {
+    background-color: var(--strong-cyan);
+    margin-right: .5rem;
+}
+
+.bottom-section--right-btn {
+    background-color: var(--light-blue);
+    margin-left: .5rem;
+}
+
+.bottom-section--left-btn:hover {
+    background-color: var(--strong-cyan-active);  
+}
+
+.bottom-section--right-btn:hover {
+    background-color: var(--light-blue-active);  
+}
+
+/* RESPONSIVE */
+/* Medium: 768px */
+@media (max-width: 48rem) {
+    header {
+        background-image: url(./images/bg-header-mobile.png);
+        background-size: cover;
+    }
+
+    .top-section--title {
+        text-align: center;
+        margin: 0 1rem 1rem 1rem;
+    }
+
+    .top-section--text {
+        width: 700px;
+    }
+
+    .header__bottom-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+/* Mobile L: 425px */
+@media (max-width: 26.5625rem) {
+    .top-section--title {
+        margin: 0 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 2.25rem;
+    }
+    
+    .top-section--text {
+        width: 340px;
+        font-size: 1.125rem;
+    } 
+    
+    .header__bottom-section {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .bottom-section--right-btn {
+        margin-top: 1rem;
+        margin-left: 0;
+    }
+
+    .bottom-section--left-btn, .bottom-section--right-btn {
+        width: 80%;
+    }
 }
