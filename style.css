@@ -51,13 +51,13 @@ header {
 .top-section--logo {
     height: auto;
     width: 150px;
-    margin: 9rem 0 4rem 0;
+    margin: 15rem 0 4rem 0;
 }
 
 .top-section--title {
     color: var(--dark-grayish-blue);
     font-size: 3.5rem;
-    font-weight: 700;
+    font-weight: 600;
     margin-bottom: 1rem;
 }
 
@@ -67,7 +67,7 @@ header {
     line-height: 1.4;
     opacity: 0.7;
     width: 850px;
-    margin-bottom: 3rem;
+    margin-bottom: 4rem;
     text-align: center;
 }
 
@@ -103,6 +103,58 @@ header {
 
 .bottom-section--right-btn:hover {
     background-color: var(--light-blue-active);  
+}
+
+/* Features section */
+.features__top-section {
+    flex-direction: column;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
+}
+
+.section-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.5;
+    opacity: 0.7;
+    width: 800px;
+    margin-bottom: 4rem;  
+    text-align: center;
+}
+
+.features__bottom-section {
+    display: flex;
+}
+
+.computer-image {
+    width: 1000px;
+    height: auto;
+    margin-left: -50px;
+}
+
+.bottom-section--text {
+    margin-left: 8rem;
+    margin-top: 7rem;
+}
+
+.feature-title {
+    font-size: 1.8rem;
+    color: var(--dark-grayish-blue);
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.feature-description {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.7;
+    opacity: 0.7;
+    width: 425px;
+    margin-bottom: 4rem;  
 }
 
 /* RESPONSIVE */
@@ -158,4 +210,48 @@ header {
     .bottom-section--left-btn, .bottom-section--right-btn {
         width: 80%;
     }
+
+    .section-title {
+        font-size: 2rem;
+        margin-top: 10rem;
+    }
+
+    .section-description {
+        font-size: 1.1rem;
+        width: 325px;
+        margin-bottom: 4rem;  
+        text-align: center;
+    }
+
+    .features__bottom-section {
+        flex-direction: column;
+    }
+
+    .bottom-section--image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .computer-image {
+        width: 350px;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .bottom-section--text {
+        margin-left: 0;
+        margin-top: 5rem;
+    }
+
+    .feature-title {
+        font-size: 1.8rem;
+        text-align: center;
+    }
+    
+    .feature-description {
+        font-size: 1.1rem;
+        width: 350px;
+        margin-bottom: 4rem;  
+        text-align: center;
 }
