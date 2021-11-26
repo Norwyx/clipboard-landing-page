@@ -114,6 +114,9 @@ header {
     font-size: 2.5rem;
     margin-top: 15rem;
     margin-bottom: 1rem;
+    font-weight: 600;
+    text-align: center;
+    color: var(--dark-grayish-blue);
 }
 
 .section-description {
@@ -131,14 +134,14 @@ header {
 }
 
 .computer-image {
-    width: 1000px;
+    width: 800px;
     height: auto;
     margin-left: -50px;
 }
 
 .bottom-section--text {
-    margin-left: 8rem;
-    margin-top: 7rem;
+    margin-left: 6rem;
+    margin-top: 4rem;
 }
 
 .feature-title {
