@@ -66,6 +66,7 @@ header {
     font-weight: 400;
     line-height: 1.4;
     opacity: 0.7;
+    width: 850px;
     margin-bottom: 4rem;
     text-align: center;
 }
@@ -210,6 +211,26 @@ header {
 
 .box3-logo {
     margin-top: 1rem;
+}
+
+.companies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15rem;
+    gap: 8rem;
+}
+
+.availability-title {
+    margin-top: 18rem;
+}
+
+.availability-description {
+    margin: auto;
+}
+
+.availability__bottom-section {
+    margin-top: 4rem;
 }
 /* RESPONSIVE */
 /* Medium: 768px */
