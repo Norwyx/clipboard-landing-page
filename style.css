@@ -274,3 +274,13 @@ footer {
 .social-media {
     margin-left: 1.5rem;
 }
+
+/* RESPONSIVE VERSIONS */
+/* 2560px / 160rem */
+@media (min-width: 160rem) {
+    .features__bottom-section, .footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
