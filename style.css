@@ -283,10 +283,21 @@ footer {
         align-items: center;
         justify-content: center;
     }
+
+    .footer__social-media {
+        margin-left: 14rem;   
+    }  
+
+    .footer-logo {
+        width: 3.75rem;
+        height: auto;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
 }
 
 /* 1440px / 90rem */
-@media (min-width: 90rem) {
+@media (max-width: 90rem) {
     .computer-image {
         width: 800px;
         height: auto;
@@ -313,3 +324,4 @@ footer {
         margin-top: -1rem;   
     }
 }
+
