@@ -232,103 +232,45 @@ header {
 .availability__bottom-section {
     margin-top: 4rem;
 }
-/* RESPONSIVE */
-/* Medium: 768px */
-@media (max-width: 48rem) {
-    header {
-        background-image: url(./images/bg-header-mobile.png);
-        background-size: cover;
-    }
 
-    .top-section--title {
-        text-align: center;
-        margin: 0 1rem 1rem 1rem;
-    }
-
-    .top-section--text {
-        width: 700px;
-    }
-
-    .header__bottom-section {
-        flex-direction: column;
-        justify-content: center;
-    }
+footer {
+    display: flex;
+    margin: 20rem 0 0 0;
+    padding-bottom: 2rem;
 }
-/* Mobile L: 425px */
-@media (max-width: 26.5625rem) {
-    header {
-        background-image: url(./images/bg-header-mobile.png);
-        background-size: cover;
-    }
-    
-    .top-section--title {
-        margin: 0 1.5rem;
-        margin-bottom: 1rem;
-        font-size: 2.25rem;
-    }
-    
-    .top-section--text {
-        width: 340px;
-        font-size: 1.125rem;
-    } 
-    
-    .header__bottom-section {
-        flex-direction: column;
-        justify-content: center;
-    }
 
-    .bottom-section--right-btn {
-        margin-top: 1rem;
-        margin-left: 0;
-    }
+.footer-logo {
+    width: 3.75rem;
+    height: auto;
+    margin-bottom: 2rem;
+    margin-left: 15rem;
+}
 
-    .bottom-section--left-btn, .bottom-section--right-btn {
-        width: 80%;
-    }
+.column__text {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    opacity: 0.7;
+    color: var(--dark-grayish-blue);
+}
 
-    .section-title {
-        font-size: 2rem;
-        margin-top: 10rem;
-    }
+.column-1 {
+    margin-left: 14rem;
+    margin-right: 5rem; 
+}
 
-    .section-description {
-        font-size: 1.1rem;
-        width: 325px;
-        margin-bottom: 4rem;  
-        text-align: center;
-    }
+.column-2 {
+    margin-right: 5rem; 
+}
 
-    .features__bottom-section {
-        flex-direction: column;
-    }
+.footer__social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25rem; 
+    margin-top: -0.8rem;   
+}
 
-    .bottom-section--image {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .computer-image {
-        width: 350px;
-        height: auto;
-        margin-left: 0;
-    }
-
-    .bottom-section--text {
-        margin-left: 0;
-        margin-top: 5rem;
-    }
-
-    .feature-title {
-        font-size: 1.8rem;
-        text-align: center;
-    }
-    
-    .feature-description {
-        font-size: 1.1rem;
-        width: 325px;
-        margin-bottom: 4rem;  
-        text-align: center;
-        margin-left: 3rem;
-    }
+.social-media {
+    margin-left: 1.5rem;
 }
