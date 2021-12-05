@@ -484,3 +484,55 @@ footer {
         margin-left: 3rem;
     }
 }
+
+/* 425px / 26.5625rem and 320px / 20rem */
+@media (max-width: 26.5625rem) and (min-width: 20rem) {
+    .top-section--logo {
+        width: 100px;
+        margin: 8rem 0 4rem 0;
+    } 
+    
+    .top-section--title {
+        font-size: 2rem;
+        margin: 0 1rem 2rem 1rem;
+    }
+
+    .top-section--text {
+        font-size: 1.125rem;
+        width: 300px;
+    }
+
+    .btn {
+        width: 80%;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-top: 8rem;
+        margin-bottom: 1rem;
+    }
+
+    .section-description {
+        font-size: 1.125rem;
+        width: 300px;
+        margin-bottom: 4rem;  
+    }
+
+    .computer-image {
+        width: 300px;
+        margin-left: 0;
+    }
+
+    .feature-title {
+        font-size: 1.7rem;
+    }
+
+    .feature-description {
+        font-size: 1.125rem;
+        width: 300px;
+    }
+
+    .clipboard-feature__image {
+        width: 300px;
+    }
+}
