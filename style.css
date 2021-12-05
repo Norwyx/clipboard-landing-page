@@ -284,3 +284,32 @@ footer {
         justify-content: center;
     }
 }
+
+/* 1440px / 90rem */
+@media (min-width: 90rem) {
+    .computer-image {
+        width: 800px;
+        height: auto;
+        margin-left: -50px;
+    } 
+    
+    .bottom-section--text {
+        margin-left: 5rem;
+        margin-top: 4rem;
+    }
+
+    .footer-logo {
+        width: 3.75rem;
+        height: auto;
+        margin-left: 8rem;
+    }
+
+    .column-1 {
+        margin-left: 10rem;
+    }
+
+    .footer__social-media {
+        margin-left: 15rem; 
+        margin-top: -1rem;   
+    }
+}
